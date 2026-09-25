@@ -11,6 +11,8 @@ body { margin:0; color:var(--ink); background:var(--paper); font:1rem/1.5 Arial,
 /* TODO: hover, focus-visible, active, and aria-current styles. */
 .nav-list a:hover { text-decoration:underline; }
 .nav-list a:focus-visible { outline:3px solid var(--accent); outline-offset:3px; }
+.nav-list a:active { opacity:.7; }
+.nav-list a[aria-current="page"] { font-weight:700; text-decoration:underline; }
 /* TODO: hide only the enhanced, collapsed narrow list. */
 main, footer { width:min(100% - 2rem,var(--max)); margin-inline:auto; }
 main { min-height:55vh; padding-block:2rem; }
