@@ -19,7 +19,8 @@ main, footer { width:min(100% - 2rem,var(--max)); margin-inline:auto; }
 main { min-height:55vh; padding-block:2rem; }
 /* TODO: add the relative-unit breakpoint justified in navigation-plan.html. */
 @media (min-width: 48rem) {
-  .site-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
-  .nav-list { display: flex; align-items: center; gap: .5rem; }
-  .js .nav-list[hidden] { display:flex; }
+  .site-header { display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+  .menu-button { display:none; }
+  .nav-list,
+  .js .nav-list[hidden] { display:flex; align-items:center; gap:.5rem; }
 }
