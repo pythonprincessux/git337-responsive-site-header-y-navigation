@@ -5,7 +5,7 @@ body { margin:0; color:var(--ink); background:var(--paper); font:1rem/1.5 Arial,
 .skip-link:focus { top:.5rem; }
 .site-header { background:var(--brand); color:var(--paper); padding:var(--space); }
 .brand { color:inherit; font-size:1.25rem; font-weight:700; }
-.menu-button { /* TODO: native button appearance, focus, and comfortable target. */ }
+.menu-button { font:inherit; padding:.75rem 1rem; min-height:44px; cursor:pointer; }
 .nav-list { list-style:none; margin:.75rem 0 0; padding:0; /* TODO: narrow layout. */ }
 .nav-list a { display:block; color:var(--paper); padding:.75rem; text-decoration:none; }
 /* TODO: hover, focus-visible, active, and aria-current styles. */
@@ -14,6 +14,7 @@ body { margin:0; color:var(--ink); background:var(--paper); font:1rem/1.5 Arial,
 .nav-list a:active { opacity:.7; }
 .nav-list a[aria-current="page"] { font-weight:700; text-decoration:underline; }
 /* TODO: hide only the enhanced, collapsed narrow list. */
+.js .nav-list[hidden] { display:none; }
 main, footer { width:min(100% - 2rem,var(--max)); margin-inline:auto; }
 main { min-height:55vh; padding-block:2rem; }
 /* TODO: add the relative-unit breakpoint justified in navigation-plan.html. */
