@@ -1,17 +1,36 @@
-MODULE 5 RESPONSIVE NAVIGATION DELIVERABLE STARTER
+COMMUNITY CONNECT - RESPONSIVE NAVIGATION
 
-Required files:
-- index.html, visit.html, support.html: three-page demonstration shell
-- styles.css: shared component styles and TODO markers
-- navigation.js: minimal behavior scaffold and TODO markers
-- navigation-plan.html: planning, testing, code-defense, and AI evidence
-- README.txt: replace this text with your site description and testing notes
+Student: Kiara McRae
 
-Use:
-1. Extract the folder before editing.
-2. Keep the required filenames and relative paths.
-3. Replace bracketed placeholders and every TODO.
-4. Test all three pages from the extracted folder.
-5. Zip the complete folder. Re-extract that ZIP and test it before submission.
+Site Description:
+Community Connect is a small, three page community website that helps visitors find programs, events, resources, visiting information, and support services.
 
-Do not replace this scaffold with a framework, library, or navigation plug-in.
+Files in this project:
+- index.html
+- visit.html
+- support.html
+- styles.css
+- navigation.js
+- navigation-plan.html
+- evidence/
+- README.txt
+
+Responsive Navigation:
+The site was built using a narrow first navigation design. On narrow screens, JavaScript gives us a menu button that opens and closes the navigation. At wider widths, the navigation displays horizontally. The breakpoint here is 48rem.
+
+Testing Notes:
+- I tested the collapsed and expanded navigation at 500px.
+- Then I tested the narrow layout at 320px.
+- Next I tested at 200% chrome browser zoom and devtools browser zoom.
+- Next I tested the keyboard navigation and visible focus using only the tab and space bar watching for the gold indicator.
+- I also tested using only escape to close the menu and bring back focus to the menu button.
+- I tested with JavaScript disabled in devtools to make sure the navigation links remain accessible.
+- I also tested the recovery from the narrow layout to the wide horizontal navigation.
+- Finally, I completed a peer task test using the Visit and Get support navigation links and observed for confusion, clarity, questions, or struggling.
+
+Evidence:
+- evidence/320px-test.png
+- evidence/500px-test.png
+- evidence/500px-menu-collapsed.png
+- evidence/500px-menu-expanded.png
+- evidence/wide-navigation.png
